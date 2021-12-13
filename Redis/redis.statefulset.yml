@@ -21,9 +21,6 @@ spec:
         app.kubernetes.io/managed-by: Helm
         app.kubernetes.io/name: redis-cluster
         helm.sh/chart: redis-cluster-7.0.13
-      annotations:
-        checksum/scripts: 36ab70bc5d2f2a12415168036e6cb97800d1596fd5e25b77585a54bc1a4d51a8
-        checksum/secret: 5061f8b64444dc5bd26f6aa75c3b31ee2d7526e148331f6f6e57ac027e048ef8
     spec:
       volumes:
         - name: scripts
